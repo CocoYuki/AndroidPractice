@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        tools:context=".service.ServiceTestActivity"
+>
+
+    <android.support.v7.widget.AppCompatButton
+
+            android:layout_margin="5dp"
+            android:id="@+id/startService"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="startService"
+    />
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_margin="5dp"
+            android:id="@+id/bindService"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="bindService"
+    />
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_margin="5dp"
+            android:id="@+id/unbindService"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="unbindService"
+    />
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_margin="5dp"
+            android:id="@+id/stopService"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="stopService"
+    />
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_margin="5dp"
+            android:id="@+id/startIntentService"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="startIntentService"
+    />
+
+    <android.support.v7.widget.AppCompatButton
+            android:layout_margin="5dp"
+            android:id="@+id/bindIntentService"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="bindIntentService"
+    />
+</android.support.v7.widget.LinearLayoutCompat>
