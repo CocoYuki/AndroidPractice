@@ -11,8 +11,15 @@
             android:theme="@style/AppTheme">
         <activity android:name=".service.ServiceTestActivity">
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".service.SkipToMeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SkipToMeActivity"></action>
+
             </intent-filter>
         </activity>
         <service android:name=".service.MyService"></service>

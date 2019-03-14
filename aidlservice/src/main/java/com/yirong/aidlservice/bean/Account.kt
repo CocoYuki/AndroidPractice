@@ -1,4 +1,10 @@
-package com.yirong.aidlservice.bean
+package com.yirong.aidlservice
 
-class Account {
+
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
+data class Account(val mUsername:String,val mPassword:String):Parcelable{
+
 }

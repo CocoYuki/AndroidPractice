@@ -1,5 +1,5 @@
 // IMyAidlInterface.aidl
-package aidl;
+package com.yirong.aidlservice;
 
 interface IMyAidlInterface {
      void addAccount(in Account account);

@@ -8,7 +8,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aidlclient" />
+            <option value="$PROJECT_DIR$/aidlservice" />
+            <option value="$PROJECT_DIR$/openother" />
+            <option value="$PROJECT_DIR$/openotheractivity" />
             <option value="$PROJECT_DIR$/servicetest" />
+            <option value="$PROJECT_DIR$/startactivityother" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

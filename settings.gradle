@@ -1,1 +1,1 @@
-include ':servicetest'
+include ':servicetest', ':aidlservice', ':aidlclient', ':openother', ':openotheractivity', ':startactivityother'
